@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEAM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style type="text/css" data-styled-components="FiaaB gTcftA caPIRE" data-styled-components-is-local="true"></style>
+</head>
+
+<body>
+  <!--  -->
+  <header>
+    <div class="col col-lg-2">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="https://store.steampowered.com/">
+            <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" height="36" alt="STEAM">
+          </a>
+        </div>
+        <!--  -->
+
+        <h3 id="titleLNav"></h3>
+        <div class="nav-links">
+          <ul>
+            <li><a class="click-allgames" href="#" >Allgames</a></li>
+            <li><a class="click-trending" href="#">Trending </a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+
+        </div>
+        <!--  -->
+        <h3 id="login"></h3>
+        <ul class="login-logout">
+
+          <li class="install"><a href=" # ">Install Steam</a></li>
+          <li class="sign"><a href="#">Signin</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--  -->
+
+  <div id="gallery">
+    <div class="gallery-wrap">
+
+    </div>
+  </div>
+<!--  -->
+  <main class="col col-lg-2">
+    <!--  -->
+    <div class="search-section">
+      <div class="search-bar">
+        <input type="text" placeholder="Search by Name" id="search-input"/>
+        <button type="button" id="search-logo">🔍</button>
+      </div>
+    
+    <!-- genres list -->
+        <div class="genreslist"> 
+          <h2>Genres List</h2>
+            <div class="genres-list">
+
+            </div>
+        </div>
+
+    <!-- tag list -->
+        <div class="taglist">
+          <h2 class ="back" onclick="history.back()"> Tag List </h2>
+   
+           <div class="tag-list">
+
+
+           </div>
+        </div>
+      </div>
+       
+    
+    
+    <!--  -->
+
+    <div class="showing-game" id="show">
+
+      <h1 class="title-game-trending">
+            Trending Game
+      </h1>
+      <div class="trend-wrapper">
+    
+      </div>
+
+    </div>
+  </main>
+
+  <!--  -->
+  
+  <!-- <div class="loadingBx"><div class="loading"></div></div> -->
+  <script src="./game.js"></script>
+</body>
+
+
+
+</html>
